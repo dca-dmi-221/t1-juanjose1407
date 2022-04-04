@@ -1,8 +1,8 @@
-class list {
+class List {
     constructor({ life,name,address }){
-        this. life = life;
-        this. name = name;
-        this. address = address;
+        this.life = life;
+        this.name = name;
+        this.address = address;
     }
     show(){
    
@@ -17,8 +17,6 @@ class list {
     getAddress() {
         return this.address
     }
-    getMinutes() {
-        return this.minutes
-    }
+
 }
 
